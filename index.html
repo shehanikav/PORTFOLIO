@@ -1,41 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Shehani Kaveenya - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shehani Kaveenya | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header>
-    <h1>Shehani Kaveenya</h1>
-    <p>Software Engineering Student | Web Developer</p>
+  <header class="hero">
+    <nav>
+      <h2 class="logo">Shehani</h2>
+      <div>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="tag">Software Engineering Student</p>
+      <h1>Hi, I'm <span>Shehani Kaveenya</span></h1>
+      <p>
+        I build simple, clean and user-friendly web projects while learning
+        software engineering, design and development.
+      </p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
   </header>
 
-  <section>
+  <section id="about" class="section fade-in">
     <h2>About Me</h2>
-    <p>I am a software engineering student interested in web development, UI design, and building real-world projects.</p>
+    <p>
+      I am a Software Engineering student interested in web development,
+      UI design, and creating real-world projects. I enjoy learning new
+      technologies and improving my coding skills step by step.
+    </p>
   </section>
 
-  <section>
+  <section id="projects" class="section fade-in">
     <h2>Projects</h2>
-    <h3>Study Planner App</h3>
-    <p>A simple app to help students organize tasks and study schedules.</p>
 
-    <h3>Portfolio Website</h3>
-    <p>A personal website to showcase my skills, projects, and contact details.</p>
+    <div class="project-grid">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio website built using HTML, CSS and GitHub Pages.</p>
+      </div>
+
+      <div class="card">
+        <h3>Study Planner App</h3>
+        <p>A simple planner concept to help students organize study tasks.</p>
+      </div>
+
+      <div class="card">
+        <h3>Expense Tracker</h3>
+        <p>A beginner-friendly project idea for tracking daily expenses.</p>
+      </div>
+    </div>
   </section>
 
-  <section>
+  <section id="skills" class="section fade-in">
     <h2>Skills</h2>
-    <p>HTML, CSS, JavaScript, GitHub, UI Design</p>
+
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>GitHub</span>
+      <span>UI Design</span>
+      <span>Problem Solving</span>
+    </div>
   </section>
 
-  <section>
+  <section id="contact" class="section fade-in">
     <h2>Contact</h2>
-    <p>Email: your-email@gmail.com</p>
-    <p>GitHub: github.com/yourusername</p>
-    <p>LinkedIn: linkedin.com/in/yourname</p>
+    <p>Email: shehanikaveeny@gmail.com</p>
+    <p>GitHub: github.com/shehanikav</p>
+    <p>LinkedIn: Add your LinkedIn link here</p>
   </section>
+
+  <footer>
+    <p>© 2026 Shehani Kaveenya. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
